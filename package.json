@@ -1,0 +1,50 @@
+{
+  "name": "infvolt",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.5.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.54.0",
+    "svelte-check": "^3.0.1",
+    "svelte-preprocess": "^5.0.3",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.3.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@svelteuidev/composables": "^0.13.0",
+    "@svelteuidev/core": "^0.13.0",
+    "@svelteuidev/motion": "^0.13.0",
+    "revolt-api": "^0.6.1",
+    "svelte-french-toast": "1.0.4-beta.0"
+  },
+  "description": "A site that fetch user information through Revol.chat",
+  "main": "svelte.config.js",
+  "keywords": [
+    "revolt",
+    "revolt",
+    "api",
+    "revolt",
+    "info",
+    "infvolt",
+    "queaxtra",
+    "revolt.js",
+    "revolt",
+    "fetch",
+    "user"
+  ],
+  "author": "Queaxtra",
+  "license": "MIT"
+}
