@@ -16,5 +16,3 @@ A site that fetch user information through Revol.chat
 - [revolt-api](https://www.npmjs.com/package/revolt-api)
 - [Tailwindcss](https://tailwindcss.com/)
 - [Svelte](https://svelte.dev/)
-
-##### Made with by UNOXDEVS
